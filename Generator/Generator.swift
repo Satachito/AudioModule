@@ -99,8 +99,9 @@ Generator {
 			)
 		)
 		
-		let	wFormat = AVAudioFormat( standardFormatWithSampleRate: Double( sampleRate ), channels: numChannels )!
-		try auau.inputBusses[ 0 ].setFormat( wFormat )	//	input of the output unit
+		try auau.inputBusses[ 0 ].setFormat(
+			AVAudioFormat( standardFormatWithSampleRate: Double( sampleRate ), channels: numChannels )!
+		)
 
 		auau.isInputEnabled = true
 		

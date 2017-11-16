@@ -7,7 +7,7 @@
 		<key>Generator.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>1</integer>
 		</dict>
 		<key>NSec.xcscheme</key>
 		<dict>
@@ -17,7 +17,7 @@
 		<key>PassThrough.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
